@@ -48,6 +48,8 @@ cp mating.py ${PYMOODIR}\model\mating.py\
 cp infill.py ${PYMOODIR}\model\infill.py
 
 <!-- python cover.py -->
+or run:\
+patch.sh /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
 
 ### Dataset
 The data that support the findings of this study are openly available in Materials Project database at http:www.materialsproject.org
