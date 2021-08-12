@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cr3N4
+_symmetry_space_group_name_H-M   P31c
+_cell_length_a   8.18294095
+_cell_length_b   8.18294095
+_cell_length_c   6.03048207
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   159
+_chemical_formula_structural   Cr3N4
+_chemical_formula_sum   'Cr12 N16'
+_cell_volume   349.70472210
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y, x-y, z'
+  3  '-x+y, -x, z'
+  4  'y, x, z+1/2'
+  5  'x-y, -y, z+1/2'
+  6  '-x, -x+y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  6  0.06616327  0.26746019  0.72290435  1
+  Cr  Cr1  6  0.19428935  0.73572687  0.79058114  1
+  N  N2  6  0.08406000  0.34484719  0.53632915  1
+  N  N3  6  0.13582281  0.50331233  0.66494932  1
+  N  N4  2  0.00000000  0.00000000  0.27920667  1
+  N  N5  2  0.33333333  0.66666667  0.71225447  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In(IO3)3
+_symmetry_space_group_name_H-M   P6_3
+_cell_length_a   9.72271990
+_cell_length_b   9.72271990
+_cell_length_c   5.42318386
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   173
+_chemical_formula_structural   In(IO3)3
+_chemical_formula_sum   'In2 I6 O18'
+_cell_volume   443.97703746
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, x, z+1/2'
+  3  '-y, x-y, z'
+  4  '-x, -y, z+1/2'
+  5  '-x+y, -x, z'
+  6  'y, -x+y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  2  0.00000000  0.00000000  0.32986701  1
+  I  I1  6  0.18553323  0.42400271  0.51731034  1
+  O  O2  6  0.10634977  0.27909573  0.17533845  1
+  O  O3  6  0.21617518  0.57054544  0.91837141  1
+  O  O4  2  0.33333333  0.66666667  0.42723363  1
+  O  O5  2  0.33333333  0.66666667  0.59634284  1
+  O  O6  2  0.33333333  0.66666667  0.79638981  1

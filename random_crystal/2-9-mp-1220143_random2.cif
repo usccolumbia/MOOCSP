@@ -1,0 +1,48 @@
+#############################################################
+#             ______       _    _          _   	            #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |  	            #
+#            |  ____/ | | | )  (|  _)/ _  | | 	            #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    0.2.2)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_from_pyxtal
+
+_symmetry_space_group_name_H-M 'Cc'
+_symmetry_Int_Tables_number                    9
+_symmetry_cell_setting                monoclinic
+_cell_length_a            9.466894
+_cell_length_b            5.571749
+_cell_length_c            5.989075
+_cell_angle_alpha        90.000000
+_cell_angle_beta        123.093210
+_cell_angle_gamma        90.000000
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 'x, -y, z+1/2'
+3 'x+1/2, y+1/2, z'
+4 'x+1/2, -y+1/2, z+1/2'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Ni     Ni       4     0.612898    0.354910    0.396135 1
+Ni     Ni       4     0.254842    0.400833    0.383198 1
+O      O        4     0.934870    0.755979    0.423660 1
+O      O        4     0.386381    0.585071    0.383709 1
+O      O        4     0.202380    0.926760    0.716440 1
+#END
+

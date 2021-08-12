@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_VSiN2
+_symmetry_space_group_name_H-M   Pna2_1
+_cell_length_a   4.98085227
+_cell_length_b   6.32857143
+_cell_length_c   5.22261503
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   33
+_chemical_formula_structural   VSiN2
+_chemical_formula_sum   'V4 Si4 N8'
+_cell_volume   164.62559646
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  '-x+1/2, y+1/2, z+1/2'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  4  0.06937088  0.25318493  0.99283542  1
+  Si  Si1  4  0.16909405  0.85662835  0.44477968  1
+  N  N2  4  0.11659816  0.03706465  0.18897158  1
+  N  N3  4  0.16247866  0.68194115  0.22010971  1
