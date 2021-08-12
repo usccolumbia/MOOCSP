@@ -1,6 +1,6 @@
-# MOOCSP
+# MOOCSP: age-fitness multiobjective GA for crystal structure prediction
 
-Introduction
+Introduction\\
 The code provides 3 major functions:
 
 Generate the input file from the cif file
