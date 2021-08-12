@@ -45,7 +45,7 @@ export PYMOODIR=/Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo\
 cp nsga2.py ${PYMOODIR}\algorithms\nsga2.py\
 cp genetic_algorithm.py ${PYMOODIR}\algorithms\genetic_algorithm.py\
 cp mating.py ${PYMOODIR}\model\mating.py\
-cp infill.py ${PYMOODIR}\model\infill.py\
+cp infill.py ${PYMOODIR}\model\infill.py
 
 <!-- python cover.py -->
 
