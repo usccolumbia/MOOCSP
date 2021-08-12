@@ -56,13 +56,13 @@ The data that support the findings of this study are openly available in Materia
 ### Usage
 
 Generate the input file from the cif file\
-python cm_test.py --cif 2-14-mp-236.cif
+$python cm_test.py --cif 2-14-mp-236.cif
 
 Crystal Structure prediction by contact map,the coordination number of the cations and the ages of the individuals\
-python age_fitness.py --input 2-14-mp-236.input
+$python age_fitness.py --input 2-14-mp-236.input
 
 Evaluate the predicted structure,calculate contact map accuracy,coordination error,rmsd,mae and rms\
-python measure.py --cif 2-14-mp-236.cif --predicted 2-14-mp-236_predicted.cif
+$python measure.py --cif 2-14-mp-236.cif --predicted 2-14-mp-236_predicted.cif
 
 
 or python exp1_batch.py
