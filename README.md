@@ -1,12 +1,18 @@
 ## MOOCSP: age-fitness multiobjective GA for crystal structure prediction
 
+Source code for our paper "Crystal structure prediction using age-fitness multi-objective genetic algorithm andcoordination number constraints".
+https://arxiv.org/abs/2107.01346
+
+Wenhui Yang (Guizhou University)\
+Jianjun Hu (University of South Carolina, Machine learning and Evolution Laboratory)
+
 ### Introduction
 
 The code provides 3 major functions:
 
 Generate the input file from the cif file
 
-Crystal Structure prediction by contact map,the coordination number of the cations and the ages of the individuals
+Crystal Structure prediction by contact map,the coordination number of the cations and the ages of the individuals. The Genetic algorithm can be run in parallel with multi-core CPU.
 
 
 Evaluate the predicted structure,calculate contact map accuracy,coordination error,rmsd,mae and rms
