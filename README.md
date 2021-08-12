@@ -35,15 +35,19 @@ pip install pyxtal\
 pip install pymatgen
 
 Step3: \
-Since we have improved the pymoo GA algorithm, we need to overwrite some source files in the pymoo library.
-python cover.py
+Since we have improved the pymoo GA algorithm, we need to overwrite some source files in the pymoo library.\
+First, run  pip -V  to figure out the python package path for pymoo:\
+If your output is: pip 20.2.4 from /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pip (python 3.7)\
+then, the pymoo path is /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
 
-replace follow files：
-D:\lib\site-packages\pymoo\algorithms\nsga2.py
-D:\lib\site-packages\pymoo\algorithms\genetic_algorithm.py
-D:\lib\site-packages\pymoo\model\mating.py
-D:\lib\site-packages\pymoo\model\infill.py
+replace the following files by running the following commands:\
+export PYMOODIR=/Users/xxx/opt/anaconda3/lib/python3.7/site-packages\
+cp nsga2.py ${PYMOODIR}\algorithms\nsga2.py\
+cp genetic_algorithm.py ${PYMOODIR}\algorithms\genetic_algorithm.py\
+cp mating.py ${PYMOODIR}\model\mating.py\
+cp infill.py ${PYMOODIR}\model\infill.py\
 
+<!-- python cover.py -->
 
 ### Dataset
 The data that support the findings of this study are openly available in Materials Project database at http:www.materialsproject.org
