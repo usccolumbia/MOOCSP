@@ -41,7 +41,7 @@ If your output is: pip 20.2.4 from /Users/xxx/opt/anaconda3/lib/python3.7/site-p
 then, the pymoo path is /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
 
 replace the following files by running the following commands:\
-export PYMOODIR=/Users/xxx/opt/anaconda3/lib/python3.7/site-packages\
+export PYMOODIR=/Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo\
 cp nsga2.py ${PYMOODIR}\algorithms\nsga2.py\
 cp genetic_algorithm.py ${PYMOODIR}\algorithms\genetic_algorithm.py\
 cp mating.py ${PYMOODIR}\model\mating.py\
