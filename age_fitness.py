@@ -554,7 +554,8 @@ for i, file in enumerate(files):
     problem = FunctionalProblem(le[i],
                                 [cm_fitness, coordination,fitness_age],
                                 xl=np.array([0.0] * le[i]),
-                                xu=np.array([1.0] * le[i])
+                                xu=np.array([1.0] * le[i]),
+                                parallelization='threads'
                                 )
 
     algorithm = NSGA2(pop_size=args.popsize)
