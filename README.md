@@ -1,6 +1,6 @@
 ## MOOCSP: age-fitness multiobjective GA for crystal structure prediction
 
-Source code for our paper "Crystal structure prediction using age-fitness multi-objective genetic algorithm andcoordination number constraints".
+Source code for our paper "Crystal structure prediction using age-fitness multi-objective genetic algorithm and coordination number constraints".
 https://arxiv.org/abs/2107.01346
 
 Wenhui Yang (Guizhou University)\
