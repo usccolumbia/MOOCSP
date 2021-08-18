@@ -24,7 +24,7 @@ python -m venv py3\
 source py3/bin/activate
 
 Step2:\
-Install the relevant packages if not already installed:
+Install the relevant packages if not already installed:\
 $ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
 
 pymoo (0.4.2.2)\
