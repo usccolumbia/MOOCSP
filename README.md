@@ -25,6 +25,7 @@ source py3/bin/activate
 
 Step2:\
 Install the relevant packages if not already installed:
+$ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
 
 pymoo (0.4.2.2)\
 numpy (1.17.2)\
@@ -32,8 +33,6 @@ scikit-learn (0.21.3)\
 pyxtal(0.2.2)\
 pytmatgen (2020.11.11)
 
-$ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
-\
 or individually:\
 pip install pymoo\
 pip install numpy\
