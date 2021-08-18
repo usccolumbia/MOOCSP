@@ -32,7 +32,8 @@ scikit-learn (0.21.3)\
 pyxtal(0.2.2)\
 pytmatgen (2020.11.11)
 
-pip install pymoo numpy scikit-learn pyxtal and pymatgen\
+$ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
+\
 or individually:\
 pip install pymoo\
 pip install numpy\
