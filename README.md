@@ -19,13 +19,13 @@ Evaluate the predicted structure,calculate contact map accuracy,coordination err
 
 ### Installation
 
-Step1: create a virtual environment\
+Step1: create a virtual environment
 ```console
 python -m venv py3
 source py3/bin/activate
 ```
 Step2:\
-Install the relevant packages if not already installed:\
+Install the relevant packages if not already installed:
 ```console
 $ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
 ```
