@@ -21,7 +21,7 @@ Evaluate the predicted structure,calculate contact map accuracy,coordination err
 
 Step1: create a virtual environment\
 ```console
-python -m venv py3\
+python -m venv py3
 source py3/bin/activate
 ```
 Step2:\
@@ -37,10 +37,10 @@ pytmatgen (2020.11.11)
 
 or individually:\
 ```console
-pip install pymoo\
-pip install numpy\
-pip install scikit-learn\
-pip install pyxtal\
+pip install pymoo
+pip install numpy
+pip install scikit-learn
+pip install pyxtal
 pip install pymatgen
 ```
 Step3: \
