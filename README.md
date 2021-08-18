@@ -45,9 +45,9 @@ pip install pymatgen
 ```
 Step3: \
 Since we have improved the pymoo GA algorithm, we need to overwrite some source files in the pymoo library.\
-First, run  
+First, run the following command to figure out the python package path for pymoo:\
 ```console
-pip -V  to figure out the python package path for pymoo:\
+pip -V  
 ```
 If your output is: pip 20.2.4 from /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pip (python 3.7)\
 then, the pymoo path is /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
