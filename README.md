@@ -63,7 +63,7 @@ cp infill.py ${PYMOODIR}\model\infill.py
 ```
 
 <!-- python cover.py -->
-or run:\
+or run:
 ```console
 patch.sh /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
 ```
