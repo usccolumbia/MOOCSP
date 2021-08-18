@@ -20,13 +20,15 @@ Evaluate the predicted structure,calculate contact map accuracy,coordination err
 ### Installation
 
 Step1: create a virtual environment\
+```console
 python -m venv py3\
 source py3/bin/activate
-
+```
 Step2:\
 Install the relevant packages if not already installed:\
+```console
 $ pip install pymoo numpy scikit-learn pyxtal and pymatgen\
-
+```
 pymoo (0.4.2.2)\
 numpy (1.17.2)\
 scikit-learn (0.21.3)\
@@ -34,15 +36,19 @@ pyxtal(0.2.2)\
 pytmatgen (2020.11.11)
 
 or individually:\
+```console
 pip install pymoo\
 pip install numpy\
 pip install scikit-learn\
 pip install pyxtal\
 pip install pymatgen
-
+```
 Step3: \
 Since we have improved the pymoo GA algorithm, we need to overwrite some source files in the pymoo library.\
-First, run  pip -V  to figure out the python package path for pymoo:\
+First, run  \
+```console
+pip -V  to figure out the python package path for pymoo:\
+```
 If your output is: pip 20.2.4 from /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pip (python 3.7)\
 then, the pymoo path is /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
 
@@ -58,8 +64,9 @@ cp infill.py ${PYMOODIR}\model\infill.py
 
 <!-- python cover.py -->
 or run:\
+```console
 patch.sh /Users/xxx/opt/anaconda3/lib/python3.7/site-packages/pymoo
-
+```
 ### Dataset
 The data that support the findings of this study are openly available in Materials Project database at http:www.materialsproject.org
 
